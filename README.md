@@ -1,15 +1,27 @@
 # Web-Scrapping
-Overview
-This challenge involves scraping data from the JustWatch website and performing data analysis and filtering using Python libraries. JustWatch is a platform that aggregates streaming content across various services. Your goal is to scrape data for movies and TV shows, analyze it, and export the results.
 
-Website
+**Overview**
+This repository contains a solution for a data scraping and analysis challenge based on the JustWatch website. JustWatch is a platform that provides information on movies and TV shows across various streaming services. The challenge involves scraping data using Python libraries, performing data filtering and analysis, and exporting the results.
+
+**Website**
 JustWatch URL: JustWatch Movies
 Description
-JustWatch allows users to search for movies and TV shows across multiple streaming services like Netflix, Amazon Prime, Hulu, etc. This assignment requires you to scrape data directly from JustWatch (not using APIs) and handle it using Python libraries.
+In this assignment, you will:
+
+**Scrape Data:**
+Use Selenium, BeautifulSoup, and Python to extract data directly from JustWatch. The data should be extracted from the HTML of the pages rather than via an API.
+Data Filtering & Analysis:
+
+Filter and analyze the scraped data using Pandas.
+
+**Export Data:**
+
+Save the filtered and analyzed data into a CSV file for further processing and reporting.
 
 Tasks
+
 1. Web Scraping
-Using Selenium, BeautifulSoup, and Python, scrape the following data from JustWatch:
+Using BeautifulSoup and Selenium, scrape the following information from JustWatch:
 
 a. Movie Information
 Movie title
@@ -27,41 +39,29 @@ Streaming services available (e.g., Netflix, Amazon Prime, Hulu)
 URL to the TV show page on JustWatch
 c. Scope
 Scrape data for at least 50 movies and 50 TV shows.
-You can start with popular content or a specific genre to ensure diversity in your dataset.
+You can start with popular content, specific genres, or any other entry point to ensure a diverse dataset.
 2. Data Filtering & Analysis
 After scraping, use Pandas to perform the following tasks:
 
 a. Data Filtering
-Only include movies and TV shows released in the last 2 years from the current date.
-Only include movies and TV shows with an IMDb rating of 7 or higher.
+Filter the data to include only movies and TV shows released in the last 2 years from the current date.
+Filter to include only movies and TV shows with an IMDb rating of 7 or higher.
 b. Data Analysis
 Calculate the average IMDb rating for the scraped movies and TV shows.
 Identify the top 5 genres with the highest number of available movies and TV shows.
 Determine the streaming service with the most significant number of offerings.
 3. Data Export
 Export the filtered and analyzed data to a CSV file.
-Save the CSV file to your Google Drive folder and share the link in your Colab notebook with view access to anyone.
-Submission Requirements
-Google Colab Link:
-
-Submit a link to your Google Colab notebook containing your Python script.
-Python Script:
-
-Your Colab notebook should include your Python script in .py format.
-Ensure clear comments explaining the scraping, filtering, and analysis process.
-Error Handling:
-
-Your script should handle errors and exceptions robustly to ensure it runs without issues.
-Code Quality:
-
-Ensure your code is well-structured, easy to understand, and follows Python best practices.
-Dataset Link:
-
-Include the dataset Google Drive link in your Colab notebook.
-Evaluation Criteria
-Correctness of Scraped Data: Ensure the data scraped is accurate and complete.
-Accuracy of Data Filtering & Analysis: Correctly apply filters and perform accurate data analysis.
-Quality of Python Code: Well-structured, clear, and executable code.
+Upload the CSV file to your Google Drive and share the link with view access in your Colab notebook.
+Submission
+Colab Notebook Link: Submit a link to your Google Colab notebook with your Python script.
+Python Script: Ensure the Colab notebook contains the Python script in .py format with clear comments explaining the scraping, filtering, and analysis process.
+Dataset Link: Include the Google Drive link to your dataset in the Colab notebook.
 Notes
-Web Scraping Ethics: Be respectful of the website’s scraping policies and avoid overloading their servers.
-Documentation: Ensure your code and methodology are well-documented for clarity.
+Error Handling: Properly handle errors and exceptions during web scraping to ensure a robust and reliable script.
+Code Quality: Ensure your code is well-structured, easy to understand, and follows Python best practices.
+Execution: Ensure that your code can be executed from start to finish without errors.
+Evaluation Criteria
+Correctness of Scraped Data: Ensure that the data scraped is accurate and complete.
+Accuracy of Data Filtering & Analysis: Correctly apply filters and perform accurate data analysis.
+Quality of Python Code: Ensure that your code is well-structured and adheres to best practices.
