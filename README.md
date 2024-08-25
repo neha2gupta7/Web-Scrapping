@@ -18,10 +18,9 @@ Filter and analyze the scraped data using Pandas.
 
 Save the filtered and analyzed data into a CSV file for further processing and reporting.
 
-Tasks
-
 1. Web Scraping
-Using BeautifulSoup and Selenium, scrape the following information from JustWatch:
+
+Using BeautifulSoup, scrape the following information from JustWatch:
 
 a. Movie Information
 
