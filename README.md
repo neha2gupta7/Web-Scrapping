@@ -19,7 +19,9 @@ Data Filtering & Analysis:
 Utilize Pandas to filter and analyze the scraped data.
 
 **Tasks**
+
 **1. Web Scraping**
+
 Using BeautifulSoup, scrape the following information from JustWatch:
 
 **a. Movie Information**
