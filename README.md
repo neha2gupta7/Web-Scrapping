@@ -40,6 +40,8 @@ URL to the TV show page on JustWatch
 c. Scope
 Scrape data for at least 50 movies and 50 TV shows.
 You can start with popular content, specific genres, or any other entry point to ensure a diverse dataset.
+
+
 2. Data Filtering & Analysis
 After scraping, use Pandas to perform the following tasks:
 
