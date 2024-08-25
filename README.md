@@ -14,11 +14,7 @@ Data Filtering & Analysis:
 
 Filter and analyze the scraped data using Pandas.
 
-**Export Data:**
-
-Save the filtered and analyzed data into a CSV file for further processing and reporting.
-
-1. Web Scraping
+**Web Scraping**
 
 Using BeautifulSoup, scrape the following information from JustWatch:
 
